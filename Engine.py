@@ -13,6 +13,7 @@ import Send
 from Cleaner import clean_emails_from_raw_data
 from AI_Summarizer import batch_summarize
 
+# This a a version that merge all the branches
 
 # ---------- Config ----------
 load_dotenv()
