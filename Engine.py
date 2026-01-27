@@ -13,6 +13,9 @@ import Send
 from Cleaner import clean_emails_from_raw_data
 from AI_Summarizer import batch_summarize
 
+# This is the Main Document for this project
+# The Entry point of this project is main()
+
 # ---------- Config ----------
 load_dotenv()
 
