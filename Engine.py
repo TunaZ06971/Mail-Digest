@@ -13,6 +13,10 @@ import Send
 from Cleaner import clean_emails_from_raw_data
 from AI_Summarizer import batch_summarize
 
+
+# This is the experiment branch trying
+# I am trying to use this to know how to use git itself
+
 # ---------- Config ----------
 load_dotenv()
 
