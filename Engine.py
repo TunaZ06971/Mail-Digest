@@ -16,6 +16,8 @@ from AI_Summarizer import batch_summarize
 # This is the Main Document for this project
 # The Entry point of this project is main()
 
+# I have add one more comment to test and undersatnd the git using
+
 # ---------- Config ----------
 load_dotenv()
 
