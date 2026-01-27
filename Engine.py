@@ -13,10 +13,17 @@ import Send
 from Cleaner import clean_emails_from_raw_data
 from AI_Summarizer import batch_summarize
 
+
 # This is the Main Document for this project
 # The Entry point of this project is main()
 
 # I have add one more comment to test and undersatnd the git using
+
+# I am trying to see if I make some changes in this document
+# Which branch will be change
+
+# This serves has an merged version of this document
+
 
 # ---------- Config ----------
 load_dotenv()
