@@ -6,6 +6,7 @@
 .env
 .env.*
 *.env
+!.env.example
 
 # Token 缓存（包含认证信息）
 .token_cache.bin
@@ -44,8 +45,14 @@ ENV/
 *.temp
 
 
-# ---------- outputs ------------
-*.json
-*.html
-*.md
-*.txt
+# ---------- Runtime outputs ------------
+output/
+Output/
+Stage_1/
+
+# ---------- Personal notes ----------
+Learning_Note.md
+
+# Keep documentation and dependency manifests trackable.
+!README.md
+!requirements.txt

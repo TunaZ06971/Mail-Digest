@@ -12,14 +12,14 @@ load_dotenv()
 
 # 从环境变量读取敏感配置
 CLIENT_ID = os.getenv("AZURE_CLIENT_ID")
-TENANT_ID = os.getenv("AZURE_TENANT_ID")
+TENANT_ID = os.getenv("AZURE_TENANT_ID", "common")
 
 if not CLIENT_ID:
     print("[ERROR] Missing AZURE_CLIENT_ID in .env", file=sys.stderr)
     print("[HINT] Please copy .env.example to .env and fill in your credentials.")
     sys.exit(1)
 
-AUTHORITY = "https://login.microsoftonline.com/common"
+AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 
 SCOPES = [
     "https://graph.microsoft.com/User.Read",
